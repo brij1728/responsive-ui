@@ -15,7 +15,7 @@ import {
   FooterText,
 } from "./FooterElement";
 
-import { Logo } from "../../assets";
+import { logo } from "../../assets";
 
 export const Footer = () => {
   return (
@@ -28,7 +28,7 @@ export const Footer = () => {
       </FooterHeadingContainer>
       <FooterContainer>
         <FooterContainerLogo>
-          <FooterLogo src={Logo} alt={"Logo"} />
+          <FooterLogo src={logo} alt={"Logo"} />
           <FooterLogoText>
             Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved
           </FooterLogoText>

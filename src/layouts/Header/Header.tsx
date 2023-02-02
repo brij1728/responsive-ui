@@ -1,4 +1,3 @@
-import { AI, People } from "../../assets";
 import {
   GradientTextHeading,
   HeaderButton,
@@ -13,6 +12,7 @@ import {
   HeaderSection,
   HeaderText,
 } from "./HeaderElement";
+import { ai, people } from "../../assets";
 
 export const Header = () => {
   return (
@@ -32,14 +32,14 @@ export const Header = () => {
           <HeaderButton>Get Started</HeaderButton>
         </HeaderInputContent>
         <HeaderPeople>
-          <HeaderPeopleImg src={People} alt="People" />
+          <HeaderPeopleImg src={people} alt="People" />
           <HeaderPeopleContent>
             1,600 people requested access a visit in last 24 hours
           </HeaderPeopleContent>
         </HeaderPeople>
       </HeaderContent>
       <HeaderImageContainer>
-        <HeaderImage src={AI} alt="AI" />
+        <HeaderImage src={ai} alt="AI" />
       </HeaderImageContainer>
     </HeaderSection>
   );

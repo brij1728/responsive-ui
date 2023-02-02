@@ -1,14 +1,14 @@
-import { Atlassian, Dropbox, Google, Shopify, Slack } from "../../assets";
 import { BrandImage, BrandSection } from "./BrandElement";
+import { atlassian, dropbox, google, shopify, slack } from "../../assets";
 
 export const Brand = () => {
   return (
     <BrandSection>
-      <BrandImage src={Google} alt="Google" />
-      <BrandImage src={Slack} alt="Slack" />
-      <BrandImage src={Atlassian} alt="Atlassian" />
-      <BrandImage src={Dropbox} alt="Dropbox" />
-      <BrandImage src={Shopify} alt="Shopify" />
+      <BrandImage src={google} alt="Google" />
+      <BrandImage src={slack} alt="Slack" />
+      <BrandImage src={atlassian} alt="Atlassian" />
+      <BrandImage src={dropbox} alt="Dropbox" />
+      <BrandImage src={shopify} alt="Shopify" />
     </BrandSection>
   );
 };

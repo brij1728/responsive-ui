@@ -1,5 +1,4 @@
 import { Article, ArticleProps } from "../../components";
-import { Blog01, Blog02, Blog03, Blog04, Blog05 } from "../../assets";
 import {
   BlogContainer,
   BlogGradientHeader,
@@ -7,34 +6,35 @@ import {
   BlogGroupB,
   BlogSection,
 } from "./BlogElement";
+import { blog01, blog02, blog03, blog04, blog05 } from "../../assets";
 
 import { RandomNumber } from "../../utils";
 
 const Articles: ArticleProps[] = [
   {
-    articleImage: Blog01,
+    articleImage: blog01,
     articleTitle: "Blog01",
     date: "26th January 2023",
     fullLink: "Read Full Article",
   },
   {
-    articleImage: Blog02,
+    articleImage: blog02,
     articleTitle: "Blog02",
   },
   {
-    articleImage: Blog03,
+    articleImage: blog03,
     articleTitle: "Blog03",
   },
   {
-    articleImage: Blog04,
+    articleImage: blog04,
     articleTitle: "Blog04",
   },
   {
-    articleImage: Blog05,
+    articleImage: blog05,
     articleTitle: "Blog05",
   },
   {
-    articleImage: Blog05,
+    articleImage: blog05,
     articleTitle: "Blog05",
   },
 ];
@@ -48,7 +48,7 @@ export const Blog = () => {
       <BlogContainer>
         <BlogGroupA>
           <Article
-            articleImage={Blog01}
+            articleImage={blog01}
             articleTitle={"Blog01"}
             date={"27th January 2023"}
             fullLink={"Read Full Article"}

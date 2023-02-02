@@ -15,7 +15,7 @@ import {
 } from "./NavbarElement";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
-import { Logo } from "../../assets";
+import { logo } from "../../assets";
 import { useState } from "react";
 
 const Menu = () => (
@@ -44,7 +44,7 @@ export const Navbar = () => {
     <NavbarContainer>
       <NavbarLinks>
         <NavLinksLogo>
-          <NavLinksLogoImg src={Logo} alt="logo" />
+          <NavLinksLogoImg src={logo} alt="logo" />
         </NavLinksLogo>
         <NavbarLinksContainer>
           <Menu />
